@@ -1,0 +1,13 @@
+#slider {
+  overflow: hidden;
+}
+
+#slider ul {
+		padding: 0;
+		margin: 0;
+}
+
+#slider ul li {
+  list-style: none;
+  float: left;
+}
