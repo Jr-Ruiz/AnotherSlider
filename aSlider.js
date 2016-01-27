@@ -1,36 +1,36 @@
 $(document).ready(function() {
-  $("#derecha").bind("click",derecha);
-	$("#izquierda").bind("click",izquierda);
+	$("#right").bind("click",right);
+	$("#left").bind("click",left);
 		
-	function derecha(){
+	function right(){
 	
-		$("#derecha").unbind();
-		$("#izquierda").unbind();
+		$("#right").unbind();
+		$("#left").unbind();
 
-		$("#carrusel ul").css("margin-left",-800);
-		$("#carrusel ul li:last").prependTo("#carrusel ul");
-		$("#carrusel ul").animate({"margin-Left":0},1000,function(){
-			$("#derecha").bind("click",derecha);
-			$("#izquierda").bind("click",izquierda);
+		$("#slider ul").css("margin-left",-800);
+		$("#slider ul li:last").prependTo("#slider ul");
+		$("#slider ul").animate({"margin-Left":0},1000,function(){
+			$("#right").bind("click",right);
+			$("#left").bind("click",left);
 		});	
 
 	};
 
 
-	function izquierda(){
+	function left(){
 
-		$("#derecha").unbind();
-		$("#izquierda").unbind();
+		$("#right").unbind();
+		$("#left").unbind();
 			
-		$("#carrusel ul").animate({
+		$("#slider ul").animate({
 				"margin-left" : "-=800px"
 			}, 1000,function(){
 
-			$("#carrusel ul li:first").appendTo("#carrusel ul");
-			$("#carrusel ul").css("margin-left",0);
+			$("#slider ul li:first").appendTo("#slider ul");
+			$("#slider ul").css("margin-left",0);
 
-			$("#derecha").bind("click",derecha);
-			$("#izquierda").bind("click",izquierda);
+			$("#right").bind("click",right);
+			$("#left").bind("click",left);
 		
 		});
 	};
