@@ -11,3 +11,8 @@
   list-style: none;
   float: left;
 }
+
+.controls{
+	cursor: pointer;
+	position: absolute;
+}
