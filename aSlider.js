@@ -33,10 +33,6 @@ $(document).ready(function(){
 
 	function move_left(){
 
-		if(!timer){
-			timer=1000;
-		}
-
 		remove_click();
 
 		$("#slider ul").animate({
