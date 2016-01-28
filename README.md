@@ -25,7 +25,7 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
   </ul>
 </div>
 
-<div class="controls>
+<div class="controls">
   <span id="left">&lt;</span>
   <span id="right">&gt;</span>
 </div>
