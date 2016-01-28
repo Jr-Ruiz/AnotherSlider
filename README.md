@@ -2,7 +2,7 @@
 
 ##Another Slider, lightweight and easy to use
 
-This jQuery plugin allows to implement an easy to use slider. Four steps are needed to include it in your project:
+This jQuery plugin allows to implement an easy to use slider. Four steps are needed to include it into your project:
 
 **First**: Add the following markup
 
