@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	$("#slider").before('<span id="left" class="controls"><</span>');	
+	$("#slider").after('<span id="left" class="controls"><</span>');	
 	$("#slider").after('<span id="right" class="controls">></span></div>');	
 	
 	var image_width=$("#slider li img").width();
