@@ -24,6 +24,11 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
     </li>
   </ul>
 </div>
+
+<div class="controls>
+  <span id="left"><</span>
+  <span id="right">></span>
+</div>
 ```
 
 **Second**: link the aSlider.css stylesheet
