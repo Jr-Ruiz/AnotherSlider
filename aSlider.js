@@ -1,12 +1,27 @@
 $(document).ready(function(){
 	
-	$("#slider").before('<span id="left" class="controls"><</span>');	
-	$("#slider").after('<span id="right" class="controls">></span></div>');	
+	var image_height=$("#slider li img").height();
+	var no_li=$("#slider ul li").size();
+	var emSize = parseFloat($("body").css("font-size")); 
+	var max_width=$("#slider li img").width();;
 	
-	var image_width=$("#slider li img").width();
-  	var no_li=$("#slider ul li").size();
+	$( "#slider li img" ).each(function( index ) {
+  		if ( $(this).width() < max_width ){
+  			max_width=$(this).width();
+  		}
+	});
 
-  	$("#slider, #slider ul li").css(
+	image_width=max_width;
+
+	$("#left, #right").css(
+  		"top", -image_height/2-50
+  	);
+
+  	$("#right").css(
+  		"left", image_width+6*emSize
+  	);
+
+	$("#slider, #slider ul li").css(
   		"width", image_width
   	);
 
@@ -14,11 +29,13 @@ $(document).ready(function(){
   		"width", image_width*no_li
   	);
 
+  	$("#slider ul img").css(
+  		"max-width", image_width
+  	);
+
 	add_click();
 		
 	function move_right(){
-
-
 
 		remove_click();
 
@@ -27,9 +44,7 @@ $(document).ready(function(){
 		$("#slider ul").animate({"margin-Left":0},1000,function(){
 			add_click();
 		});	
-
 	};
-
 
 	function move_left(){
 
@@ -41,9 +56,7 @@ $(document).ready(function(){
 
 			$("#slider ul li:first").appendTo("#slider ul");
 			$("#slider ul").css("margin-left",0);
-
 			add_click();
-				
 		});
 	};
 
