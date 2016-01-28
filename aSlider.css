@@ -1,18 +1,24 @@
 #slider {
-  overflow: hidden;
+	overflow: hidden;
+	margin: 0 5em;
 }
 
 #slider ul {
-		padding: 0;
-		margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 #slider ul li {
-  list-style: none;
-  float: left;
+	list-style: none;
+	float: left;
 }
 
 .controls{
 	cursor: pointer;
+	position: relative;
+}
+
+#left, #right{
 	position: absolute;
+	font-size: 5em;
 }
