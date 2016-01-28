@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var image_height=$("#slider li img").height();
 	var no_li=$("#slider ul li").size();
 	var emSize = parseFloat($("body").css("font-size")); 
-	var max_width=$("#slider li img").width();;
+	var max_width=$("#slider li img").width();
 	
 	$( "#slider li img" ).each(function( index ) {
   		if ( $(this).width() < max_width ){
@@ -13,8 +13,14 @@ $(document).ready(function(){
 
 	image_width=max_width;
 
+	$("#slider").css(
+		"margin-left", image_width/40;
+		"margin-right",image_width/40
+	);
+
 	$("#left, #right").css(
-  		"top", -image_height/2-50
+  		"top", -image_height/2-50;
+  		"font-size", image_width/40
   	);
 
   	$("#right").css(
