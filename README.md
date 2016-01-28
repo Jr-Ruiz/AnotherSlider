@@ -6,7 +6,7 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
 
 **First**: Add the following markup
 
-`<div id="slider">
+````<div id="slider">
 
   <ul>
     <li>
@@ -24,7 +24,7 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
     </li>
   </ul>
   
-</div>`
+</div>````
 
 **Second**: Link the aSlider.css stylesheet
 
