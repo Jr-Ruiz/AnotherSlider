@@ -6,7 +6,7 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
 
 **First**: Add the following markup
 
-````<div id="slider">
+`<div id="slider">
   <ul>
     <li>
         <img src="image01" alt="Your first image"/>
@@ -20,7 +20,7 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
         <img src="image-nth" alt="Your nth image"/>
     </li>
   </ul>
-</div>````
+</div>`
 
 **Second**: Link the aSlider.css stylesheet
 
