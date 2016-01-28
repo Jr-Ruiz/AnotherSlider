@@ -1,4 +1,4 @@
-# AnotherSlider
+# AnotherSlider.js
 
 ##Another Slider, lightweight and easy to use
 
