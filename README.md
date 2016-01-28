@@ -1,11 +1,12 @@
 # AnotherSlider
-Another Slider, lightweight and easy to use
+
+##Another Slider, lightweight and easy to use
 
 This jQuery plugin allows to implement an easy to use slider. Four steps are needed to include it in your project:
 
-First: Add the following markup
+**First**: Add the following markup
 
-<div id="slider">
+`<div id="slider">
 
   <ul>
     <li>
@@ -23,17 +24,17 @@ First: Add the following markup
     </li>
   </ul>
   
-</div>
+</div>`
 
-Second: Link the aSlider.css stylesheet
+**Second**: Link the aSlider.css stylesheet
 
-<link rel="stylesheet" type="text/css" href="aSlider.min.css">
+`<link rel="stylesheet" type="text/css" href="aSlider.min.css">`
 
-Third: do not forget to add the jQuery plugin in the way that you prefer. For instance:
+**Third**: do not forget to add the jQuery plugin in the way that you prefer. For instance:
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+`<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>`
 
-Fourth: add the AnotherSlider file at the bottom of the body:
+**Fourth**: add the AnotherSlider file at the bottom of the body:
 
-<script src="js/aSlider.min.js"></script>
+`<script src="js/aSlider.min.js"></script>`
 
