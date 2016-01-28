@@ -26,7 +26,7 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
 </div>
 ```
 
-**Second**: Link the aSlider.css stylesheet
+**Second**: link the aSlider.css stylesheet
 
 ```html
   <link rel="stylesheet" type="text/css" href="aSlider.min.css">
