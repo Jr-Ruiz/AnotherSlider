@@ -16,24 +16,22 @@ $(document).ready(function(){
 
 	add_click();
 		
-	function move_right(timer){
+	function move_right(){
 
-		if(!timer){
-			timer=1000;
-		}
+
 
 		remove_click();
 
 		$("#slider ul").css("margin-left",-image_width);
 		$("#slider ul li:last").prependTo("#slider ul");
-		$("#slider ul").animate({"margin-Left":0},timer,function(){
+		$("#slider ul").animate({"margin-Left":0},1000,function(){
 			add_click();
 		});	
 
 	};
 
 
-	function move_left(timer){
+	function move_left(){
 
 		if(!timer){
 			timer=1000;
@@ -43,7 +41,7 @@ $(document).ready(function(){
 
 		$("#slider ul").animate({
 			"margin-left" : "-="+image_width+"px"
-			}, timer,function(){
+			}, 1000,function(){
 
 			$("#slider ul li:first").appendTo("#slider ul");
 			$("#slider ul").css("margin-left",0);
