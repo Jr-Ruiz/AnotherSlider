@@ -1,6 +1,6 @@
 #slider {
 	overflow: hidden;
-	margin: 0 5em;
+	margin: 0;
 }
 
 #slider ul {
@@ -20,5 +20,4 @@
 
 #left, #right{
 	position: absolute;
-	font-size: 5em;
 }
