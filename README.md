@@ -32,7 +32,7 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
   <link rel="stylesheet" type="text/css" href="aSlider.min.css">
 ```
 
-**Third**: do not forget to add the jQuery plugin in the way that you prefer. For instance:
+**Third**: do not forget to add jQuery (1.5+) in the way that you prefer. For instance:
 
 ```html
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
