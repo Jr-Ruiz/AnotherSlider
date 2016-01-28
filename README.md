@@ -6,7 +6,7 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
 
 **First**: Add the following markup
 
-```javascript
+```html
 <div id="slider">
   <ul>
     <li>
