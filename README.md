@@ -2,6 +2,8 @@
 
 ##Another Slider, lightweight and easy to use
 
+See the demo at http://jr-ruiz.github.io/
+
 This jQuery plugin allows to implement an easy to use slider. Four steps are needed to include it into your project:
 
 **First**: Add the following markup
