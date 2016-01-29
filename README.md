@@ -48,3 +48,9 @@ This jQuery plugin allows to implement an easy to use slider. Four steps are nee
 ```html
   <script src="js/aSlider.min.js"></script>`
 ```
+
+**Fifth**: call the function
+
+```javascript
+  $("#slider").slider();
+```
